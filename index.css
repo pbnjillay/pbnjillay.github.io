@@ -1,0 +1,83 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+html {
+    height: 100%;
+  }
+  body {
+     width: 1000px;
+     height: 100%;
+     background-color: #00ff82;
+     font-family: Arial, Helvetica, sans-serif;
+  }
+
+  header {
+      background-color: #210042;        
+      padding: 50px;
+      font-size: 30px;
+      display: block;
+      font-family: Arial, Helvetica, sans-serif;
+      color: white; 
+    }
+  
+
+  nav {
+      float: center;
+      width: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  nav ul {
+      padding: left;
+      float: left;
+      border-bottom:white;
+      list-style-type: none;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  nav li {
+      float: left;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  nav li a {
+      display: block;
+      height: 20px;
+      padding: 12px 18px 8px 18px;
+      vertical-align: middle;
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: italic
+  }
+  a {
+      color: purple;
+  }
+  section {
+      width: 100%;
+      display: inline-block;
+      float: left;
+      font-family: Arial, Helvetica, sans-serif;
+      color: purple
+  }
+  #intro {
+      color: white;
+      font-style: italic
+      border: 
+  }
+  aside {
+      width: 60%;
+      display: inline-block;
+      background-color: black;
+      padding:left;
+      min-height: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  aside ul {
+      list-style-type: none;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  footer {
+      width: 790px;
+      background-color:#210042;
+      color:white;
+      clear: both;
+      display: block;
+      font-family: Arial, Helvetica, sans-serif;
+  }
